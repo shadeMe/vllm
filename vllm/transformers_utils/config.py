@@ -106,6 +106,7 @@ _CONFIG_REGISTRY: dict[str, type[PretrainedConfig]] = LazyConfigDict(
     jais="JAISConfig",
     mlp_speculator="MLPSpeculatorConfig",
     medusa="MedusaConfig",
+    mellum="MellumConfig",
     midashenglm="MiDashengLMConfig",
     eagle="EAGLEConfig",
     speculators="SpeculatorsConfig",
